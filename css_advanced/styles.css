@@ -1,5 +1,41 @@
-*{
-    font-size: 30px;
-    font-family: Arial, sans-serif;
-    color: rgb(93, 36, 36);
+nav {
+    padding: 10px;
+    text-align: center;
+    color: yellow;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}   
+
+nav ul li a {
+    text-decoration: none;
+    color: yellow;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+
+
+.first-section {
+    background-image: url(./assets/Object.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
 }
