@@ -1,7 +1,23 @@
+@font-face {
+    font-family: 'Spin Cycle OT', sans-serif;
+    src: url('./assets/Spin-Cycle-OT/spincycle_3d_ot.otf') format('woff2'),
+         url('./assets/Spin-Cycle-OT/spincycle_ot.otf') format('woff'),
+         url('./assets/fonts/spin-cycle-ot.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif, 'spin cycle ot';
+    width: 100%;
+}
+
 /* General styling for the navbar */
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 50px; /* Adjust as necessary */
     position: absolute;
@@ -9,6 +25,7 @@
     top: 0;
     z-index: 1000;
     color: white;
+    font-family: 'Source Sans Pro', sans-serif; /* Using Sans Pro for the navbar */
 }
 
 /* Styling for the logo and text */
@@ -23,6 +40,7 @@
 }
 
 .logo-text {
+    font-family: 'Spin Cycle OT', sans-serif; /* Use Spin Cycle OT for logo text */
     font-size: 1.2rem;
     font-weight: 600;
     color: white; /* Ensure visibility on the dark background */
@@ -142,7 +160,7 @@
     .navbar {
         padding: 15px 30px;
     }
-    
+
     .nav-links {
         gap: 15px;
     }
