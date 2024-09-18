@@ -1,33 +1,55 @@
-nav {
-    padding: 10px;
-    text-align: center;
-    color: yellow;
+/* General styling for the navbar */
+.navbar {
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    align-items: center;
+    padding: 20px 50px; /* Adjust as necessary */
+    position: absolute;
     width: 100%;
+    top: 0;
     z-index: 1000;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 0 10px;
-}   
-
-nav ul li a {
-    text-decoration: none;
-    color: yellow;
-}
-
-nav ul li a:hover {
     color: white;
 }
 
+/* Styling for the logo and text */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
 
+.logo {
+    width: 40px; /* Adjust based on your logo size */
+    margin-right: 10px; /* Add some spacing between the logo and text */
+}
+
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white; /* Ensure visibility on the dark background */
+}
+
+/* Navigation links styling */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Space between each nav item */
+}
+
+.nav-links li {
+    text-transform: uppercase;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #b16ceb; /* Same hover color for consistency */
+}
 
 /* General section styling */
 .first-section {
@@ -37,7 +59,8 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     padding: 50px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./your-background-image.jpg');
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./your-background-image.jpg'); */
+    background-image: url(./assets/Object.png);
     background-size: cover;
     color: white;
   }
@@ -113,4 +136,19 @@ nav ul li a:hover {
     font-size: 0.9rem;
     color: #ccc;
   }
+
+  /* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 30px;
+    }
+    
+    .nav-links {
+        gap: 15px;
+    }
+
+    .logo {
+        width: 30px;
+    }
+}
   
