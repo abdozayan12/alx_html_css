@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 50px; /* Adjust as necessary */
+    /* padding: 20px 50px;  */
     position: absolute;
     width: 100%;
     top: 0;
@@ -158,7 +158,7 @@ body {
   .testimonial {
     background-color: #b47cff;
     color: white;
-    padding: 20px;
+    /* padding: 20px; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -200,6 +200,87 @@ body {
     font-style: italic;
     line-height: 33.6px;
   }
+
+  .tutorials {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.tutorial-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tutorial {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+    overflow: hidden;
+}
+
+.tutorial p {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'source sans pro';
+  background-color: #fff;
+}
+
+.tutorial img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.rating-duration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.rating {
+    padding: 0 10px 10px;
+    color: purple;
+}
+
+.duration {
+    background-color: #eee;
+    padding: 5px 0;
+    font-size: 0.8rem;
+}
+
+.duration p {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    padding: 10px;
+    margin: 0;
+}
+
 
   /* Responsive adjustments */
 @media (max-width: 768px) {
