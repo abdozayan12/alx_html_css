@@ -14,13 +14,18 @@ body {
     width: 100%;
 }
 
+main{
+    margin: 0;
+    padding: 0;
+}
+
 /* General styling for the navbar */
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     /* padding: 20px 50px;  */
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -280,6 +285,44 @@ h3 {
     padding: 10px;
     margin: 0;
 }
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #071629;
+    color: white;
+    font-family: source sans pro;
+  } 
+
+  .zx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+    background-color: #071629;
+    color: white;
+    gap: 20px;
+  }
+
+  .zx h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .zx p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* .zx div {
+    width: 257px;
+    height: 153px;
+  } */
 
 
   /* Responsive adjustments */
