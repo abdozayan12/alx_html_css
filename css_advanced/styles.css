@@ -370,6 +370,15 @@ footer {
     flex-direction: column;
 }
 
+.footer-sec p {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    font-family: source sans pro;
+    color: #FFFFFF;
+    ;
+}
+
 .footer-items-container {
     display: flex;
     justify-content: space-between;
