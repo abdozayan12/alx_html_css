@@ -357,7 +357,11 @@ h3 {
     color: #666;
 }
 
-
+footer {
+    background-color: #071629;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 
   /* Responsive adjustments */
 @media (max-width: 768px) {
