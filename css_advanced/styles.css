@@ -362,6 +362,26 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+    width: 100%;
+}
+
+.footer-sec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-items-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 40px 0 40px;
+    gap: 20px;
+  }
+
+.footer-items-container img {
+    width: 120px;
+    height: 40px;
 }
 
   /* Responsive adjustments */
