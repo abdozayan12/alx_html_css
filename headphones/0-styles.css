@@ -65,18 +65,18 @@ body {
 }
 
 .first-page h1 {
+    margin: 0;
     font-size: 32px;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 20px;
     padding-top: 200px;
 }
 
 .first-page h2 {
+    margin: 0;
     font-size: 16px;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 20px;
 }
 
 .first-page button {
@@ -101,4 +101,31 @@ body {
     font-weight: 400;
     color: #fff;
     padding-top: 40px;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 20px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .humburger {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .first-page {
+        padding: 0 20px;
+    }
+    
 }
