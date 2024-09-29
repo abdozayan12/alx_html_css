@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HEADPHONES</title>
     <link rel="stylesheet" href="0-styles.css">
     <link rel="stylesheet" href="1-styles.css">
     <link rel="stylesheet" href="2-styles.css">
@@ -20,7 +20,7 @@
             <div class="nav-links">
                 <a href="#what we do">what we do</a>
                 <a href="#our results">our results</a>
-                <a href="contact us">contact us</a>
+                <a href="#contact us">contact us</a>
             </div>
             <div class="humburger">
                 <img src="images/humburger.png" alt="humburger">
@@ -98,23 +98,29 @@
                     </div>
             </section>
 
-            <section class="fourth-page" id="contact us">
-                <div class="fourth-page-text">
-                    <h1>contact us</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.</p>
-                </div>
+            <section class="fourth-page" id="contact-us">
+                <h1>Contact Us</h1>
                 <div class="fourth-page-form">
                     <form>
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email">
-                        <input type="text" placeholder="Subject">
-                        <textarea placeholder="Message"></textarea>
-                        <button>send</button>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <label for="message">Your Message</label>
+                            <textarea id="message" placeholder="Message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Call to Action</button>
+                        </div>
                     </form>
                 </div>
+            </section>
+            
     </main>
 </body>
 
