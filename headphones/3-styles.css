@@ -1,0 +1,70 @@
+.fourth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px 0;
+    height: 100vh;
+}
+
+.fourth-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.fourth-page-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fourth-page-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fourth-page-form form div:last-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fourth-page-form label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.fourth-page-form input,
+.fourth-page-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.fourth-page button {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #FF6565;
+    color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fourth-page button:hover {
+    background-color: #e55a5a;
+}
