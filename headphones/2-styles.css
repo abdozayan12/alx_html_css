@@ -1,4 +1,19 @@
 .third-page {
     background-image: url(./images/headphones_hero_2.jpg);
     height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+.third-page-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
