@@ -11,6 +11,10 @@
     flex-direction: column;
 }
 
+.third-page-text {
+    padding: 0 150px;
+}
+
 .third-page-icons {
     display: flex;
     justify-content: center;
