@@ -21,3 +21,11 @@ footer {
     gap: 20px;
     width: 100px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
